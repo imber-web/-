@@ -1,0 +1,30 @@
+@import '~@alifd/next/variables.scss';
+
+.StepForm {
+  width: 568px;
+  margin: 40px auto 24px;
+}
+
+.succesIcon {
+  color: $color-success-3;
+}
+
+.fle{
+    display: flex;
+    margin-top: 20px;
+}
+
+.chooseItem {
+  background-color: #F8F8F8;
+  cursor: pointer;
+  line-height: 60px;
+  .item{
+    height: 60px;
+    width: 600px;
+    img{
+        vertical-align: middle;
+        height: 24px;
+        width: 24px;
+    }
+  }
+}

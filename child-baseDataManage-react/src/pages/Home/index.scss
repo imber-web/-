@@ -1,0 +1,18 @@
+.wrap{
+  display: flex;
+  .basic-nav{
+    width: 240px; 
+    min-height: calc(100vh - 52.375px);
+  }
+  .basic-nav .fusion {
+    margin: 8px 20px;
+    width: 100px;
+    color: #FFFFFF;
+    font-size: 20px;
+  }
+  
+  .basic-nav .login-in {
+    margin: 0 20px;
+    color: #FFFFFF;
+  }
+}

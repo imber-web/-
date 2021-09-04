@@ -1,0 +1,42 @@
+// 设置title居中
+#title {
+  text-align: center;
+  font-size: 20px;
+  min-width: 120px;
+}
+//注意覆盖组件的时候，一定要嵌套，避免影响其他地方样式
+.shellNav {
+  ul{
+    width: 1010px;
+  }
+  .next-icestark-nav.next-icestark-primary.next-icestark-hoz .next-icestark-menu-header,
+  .next-icestark-nav.next-icestark-primary.next-icestark-hoz .next-icestark-menu-footer,
+  .next-icestark-nav.next-icestark-primary.next-icestark-hoz .next-icestark-menu-item-inner {
+    line-height: 50px;
+  }
+}
+
+.shell {
+  .next-icestark-shell-header {
+    background: #222;
+    border-bottom: none;
+  }
+
+  .next-icestark-shell-branding {
+    width: 100%;
+
+    .next-icestark-shell-navigation {
+      justify-content: flex-start;
+    }
+  }
+  .next-icestark-shell-brand .next-icestark-shell-main .next-icestark-shell-content{
+    padding: 0!important;
+  }
+}
+//暂时没有找到嵌套的地方，如果影响后面样式记得修改
+.next-icestark-shell-brand .next-icestark-shell-main .next-icestark-shell-content{
+  padding: 0;
+}
+// .next-icestark-shell-header .next-icestark-shell-branding {
+//   justify-content: space-between;
+// }

@@ -1,0 +1,2 @@
+//常量文件
+ACCESS_TOKEN:'ACCESS_TOKEN'

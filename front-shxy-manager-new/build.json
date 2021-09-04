@@ -1,0 +1,36 @@
+{
+  "plugins": [
+    [
+      "build-plugin-icestark",
+      {
+        "uniqueName": "frameworkJsonp"
+      }
+    ],
+    [
+      "build-plugin-fusion",
+      {
+        "themePackage": "@alifd/theme-design-pro",
+        "themeConfig": {
+          "nextPrefix": "next-icestark-"
+        }
+      }
+    ],
+    [
+      "build-plugin-moment-locales",
+      {
+        "locales": [
+          "zh-cn"
+        ]
+      }
+    ]
+  ],
+  "proxy": {
+    "/papi": {
+      "enable": true,
+      "target": "http://front.saas.test.gdteacher.com/papi/",
+      "pathRewrite": {
+        "/papi" : ""
+      }
+    }
+  }
+}

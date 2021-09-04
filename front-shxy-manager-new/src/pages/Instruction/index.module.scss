@@ -1,0 +1,37 @@
+.instruction {
+  height: 100%;
+  width: 100%;
+  background-color: #F2F2F2;
+  padding-top: 20px;
+
+  .wrap {
+    width: 1400px;
+    padding: 40px;
+    margin: 0 auto 0;
+    background-color: #fff;
+    border-radius: 3px;
+
+    .blue {
+      color: blue;
+      cursor: pointer;
+    }
+
+    h1 {
+      font-weight: 700;
+    }
+
+    .red {
+      color: red;
+    }
+
+    div {
+      font-size: 20px;
+      line-height: 40px;
+    }
+
+    .center {
+      text-align: center;
+    }
+  }
+
+}
